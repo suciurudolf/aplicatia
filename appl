@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/cssx" href="cs.css"/>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css"/>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+<script type="text/javascript">
+    $(document).on("pageinit", "#pagina1", function (event) {
+        $(document).on('click', '#exit', function (e) {
+                navigator.app.exitApp();   })         
+		});
+</script>
+</head>
+
+<body>
+									<!-- PAGINA  1 -->
+	<div data-role="page" id="pagina1">
+	<!-- Panel -->
+		<div data-role="panel" id="panou">
+			<form>
+				<div class="ul-field-contain">
+					<label for="numele">Numele</label><input type="text" name="numele" id="numele" placeholder="Introduceti nume" data-clear-btn="true">
+					<label for="data">Data nasterii</label><input type="date" name="data" id="data">
+					<textarea name="comentarii" id="bla_bla" rows="5" col="4"></textarea>
+			
+					<legend>Legenda</legend>
+					<label for="f">Feminin</label>
+					<input type="radio" name="sex" id="f" value="feminin">
+			
+					<label for="m">Masculin</label>
+					<input type="radio" name="sex" id="m" value="masculin">
+			
+					<hr><br>
+					<legend>ceva ooptiuni cu checkbox</legend>
+			
+					<fieldset data-role="controlgroup">
+						<label for="qwe">Optiunea 1</label>
+						<input type="checkbox" name="optiuni" id="qwe">
+						<label for="qwe1">Optiunea 2</label>
+						<input type="checkbox" name="optiuni" id="qwe1">
+						<label for="qwe2">Optiunea 3</label>
+						<input type="checkbox" name="optiuni" id="qwe2">
+					</fieldset>
+				</div>
+			</form>
+		</div>
+		
+					<!-- Header -->
+		<div data-role="header">
+			<h1> Pagina 1</h1>
+		</div>
+	
+					<!-- Content -->
+		<div data-role="main" class="ui-content">
+			<button class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-home" data-rel=""></button>
+			<a href="#pagina2" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-mail" data-rel=""></a>
+			<a href="#pagina3" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-video" data-rel=""></a>
+			<a href="#pagina4" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-power" data-rel=""></a>
+			<a href="#pagina5" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-grid" data-rel=""></a>
+	
+			<p>dsakdnasjkdnhasjkdhjkasdjkhasjkd<p>
+			<p>asdknhaskjdhasjkdhasjkhdjkashdjkashjk<p>
+			<a href="#panou" class="ui-btn ui-btn-inline">Panou</a>
+			<a href="#" class="ui-btn ui-btn-inline ui-icon-power" id="exit">Inchide aplicatia</a>
+		</div>
+		
+		<div data-role="footer">
+			<h4> Copyright Rudy &copy; 2014 </h4>
+		</div>
+	
+	</div>
+	
+											<!-- PAGINA  2 -->
+	<div data-role="page" id="pagina2">
+	
+		<div data-role="header">
+			<h1> Pagina 2</h1>
+			<a href="#" class="ui-btn ui-btn-inline" data-rel="back">Back</a>
+		</div>
+	
+					<!-- Content -->
+		<div data-role="main" class="ui-content">
+			<a href="#pagina1" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-home" data-rel=""></a>
+			<a href="#" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-mail" data-rel=""></a>
+			<a href="#pagina3" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-video" data-rel=""></a>
+			<a href="#pagina4" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-power" data-rel=""> </a>
+			<a href="#pagina5" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-grid" data-rel=""> </a>
+	
+			<p>dsakdnasjkdnhasjkdhjkasdjkhasjkd<p>
+			<p>asdknhaskjdhasjkdhasjkhdjkashdjkashjk<p>
+			<a href="http://www.yahoo.com">Check your emails</a>
+		</div>
+		
+		
+		<div data-role="footer">
+			<h4> Copyright Rudy &copy; 2014 </h4>
+		</div>
+	</div>
+	
+											<!-- PAGINA  3 -->
+	<div data-role="page" id="pagina3">
+	
+		<div data-role="header">
+			<h1> Pagina 3</h1>
+			<a href="#" class="ui-btn ui-btn-inline" data-rel="back">Back</a>
+		</div>
+	
+					<!-- Content -->
+		<div data-role="main" class="ui-content">
+			<a href="#pagina1" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-home" data-rel=""></a>
+			<a href="#pagina2" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-mail" data-rel=""></a>
+			<a href="#" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-video" data-rel=""></a>
+			<a href="#pagina4" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-power" data-rel=""> </a>
+			<a href="#pagina5" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-grid" data-rel=""> </a>
+	
+			<p>dsakdnasjkdnhasjkdhjkasdjkhasjkd<p>
+			<p>asdknhaskjdhasjkdhasjkhdjkashdjkashjk<p>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/H8jjx8fr-S4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		
+		<div data-role="footer">
+			<h4> Copyright Rudy &copy; 2014 </h4>
+		</div>
+	</div>
+	
+	
+												<!-- PAGINA  4 -->
+	<div data-role="page" id="pagina4">
+	
+		<div data-role="header">
+			<h1> Pagina 4</h1>
+			<a href="#" class="ui-btn ui-btn-inline" data-rel="back">Back</a>
+		</div>
+	
+					<!-- Content -->
+		<div data-role="main" class="ui-content">
+			<a href="#pagina1" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-home" data-rel=""></a>
+			<a href="#pagina2" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-mail" data-rel=""></a>
+			<a href="#pagina3" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-video" data-rel=""></a>
+			<a href="#" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-power" data-rel=""> </a>
+			<a href="#pagina5" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-grid" data-rel=""> </a>
+	
+			<p>dsakdnasjkdnhasjkdhjkasdjkhasjkd<p>
+			<p>asdknhaskjdhasjkdhasjkhdjkashdjkashjk<p>
+			
+			
+		</div>
+		
+		
+		<div data-role="footer">
+			<h4> Copyright Rudy &copy; 2014 </h4>
+		</div>
+	</div>
+	
+										<!-- PAGINA  5 -->
+	<div data-role="page" id="pagina5">
+	
+		<div data-role="header">
+			<h1> Pagina 5</h1>
+			<a href="#" class="ui-btn ui-btn-inline" data-rel="back">Back</a>
+		</div>
+	
+					<!-- Content -->
+		<div data-role="main" class="ui-content">
+			<a href="#pagina1" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-home" data-rel=""></a>
+			<a href="#pagina2" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-mail" data-rel=""></a>
+			<a href="#pagina3" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-video" data-rel=""></a>
+			<a href="#pagina4" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-power" data-rel=""> </a>
+			<a href="#" class="ui-btn ui-btn-inline ui-shadow ui-btn-icon-left ui-icon-grid" data-rel=""> </a>
+	
+			<p>dsakdnasjkdnhasjkdhjkasdjkhasjkd<p>
+			<p>asdknhaskjdhasjkdhasjkhdjkashdjkashjk<p>
+		</div>
+		
+		
+		<div data-role="footer">
+			<h4> Copyright Rudy &copy; 2014 </h4>
+		</div>
+	</div>
+	
+</body>
+<html>
